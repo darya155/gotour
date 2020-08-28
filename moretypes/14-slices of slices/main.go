@@ -23,4 +23,6 @@ func main() {
 	for i := 0; i < len(board); i++ {
 		fmt.Printf("%s\n", strings.Join(board[i], ""))
 	}
+
+	fmt.Printf("len=%d cap=%d %v\n", len(board), cap(board), board)
 }
